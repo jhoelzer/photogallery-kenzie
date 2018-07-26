@@ -1,0 +1,37 @@
+body {
+    width: 100%;
+}
+
+header {
+
+}
+
+@media (max-width: 650px) {
+    #gallery-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        
+    }
+    #gallery-desktop {
+        display: none;
+    }
+    #images-mobile {
+        /* padding: 5px 10px; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+@media (min-width: 651px) {
+    #gallery-mobile {
+        display: none;
+    }
+    #gallery-desktop {
+        display: flex;
+    }
+}
